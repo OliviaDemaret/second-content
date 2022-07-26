@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap);
+
+body {
+  font-family: "Kumbh Sans";
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  background-color: darkcyan;
+  background-image: url("bg-pattern-top.svg"), url("bg-pattern-bottom.svg");
+  background-position: right 58vw bottom 20vh, left 58vw top 30vh;
+  background-repeat: no-repeat, no-repeat;
+  padding: 0px;
+  margin: 0;
+}
+
+.white-div {
+  background-color: white;
+  width: 430px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 0px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.div-one {
+  border-radius: 15px 15px 0px 0px;
+  padding: 75px;
+  background-image: url("bg-pattern-card.svg");
+  margin: auto;
+}
+
+.victor {
+  border-radius: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white;
+  margin-bottom: -135px;
+  width: 100px;
+}
+.div-two {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  justify-content: center;
+  padding: 40px;
+  margin-bottom: -40px;
+  text-align: center;
+}
+.p-one {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.p-two {
+  font-weight: 700;
+  opacity: 50%;
+  text-align: right;
+}
+.p-three {
+  font-weight: 400;
+  color: darkgray;
+  margin: auto;
+}
+
+hr {
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+  color: darkgray;
+}
+
+.span-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.div-three {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.div-four {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.div-five {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.p-four {
+  margin: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.p-five {
+  font-weight: 400;
+  color: darkgray;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: smaller;
+}
+
+.attribution {
+  background-image: url("bg-pattern-bottom.svg");
+  background-position: right bottom;
+  background-size: 50%;
+  opacity: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
